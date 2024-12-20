@@ -1,115 +1,151 @@
 [[Libksba]]
 arch = "aarch64"
-git-tree-sha1 = "9858e43ac865148700bab9fa84f3175e6c937c63"
-libc = "glibc"
-os = "linux"
-
-    [[Libksba.download]]
-    sha256 = "9085fc236c52d5295867df6173923ee79e90a53dedbb108186d7cc820ed828b2"
-    url = "https://github.com/JuliaBinaryWrappers/Libksba_jll.jl/releases/download/Libksba-v1.5.1+1/Libksba.v1.5.1.aarch64-linux-gnu.tar.gz"
-[[Libksba]]
-arch = "aarch64"
-git-tree-sha1 = "e7a5e1b906b7b5af0a0fe9e25b2fb60beaec4e37"
-libc = "musl"
-os = "linux"
-
-    [[Libksba.download]]
-    sha256 = "64b3f058f22c55af0f18d07f921539a930e259c7add33cea0390aed4a9663b7c"
-    url = "https://github.com/JuliaBinaryWrappers/Libksba_jll.jl/releases/download/Libksba-v1.5.1+1/Libksba.v1.5.1.aarch64-linux-musl.tar.gz"
-[[Libksba]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "1027c797d15c1ba7db50b81d558a1fcbb7934c50"
-libc = "glibc"
-os = "linux"
-
-    [[Libksba.download]]
-    sha256 = "28057b5a651d31499e2e6e5e37f78c6a99b80fe1b43cacedb5c8cc378fb201f8"
-    url = "https://github.com/JuliaBinaryWrappers/Libksba_jll.jl/releases/download/Libksba-v1.5.1+1/Libksba.v1.5.1.armv7l-linux-gnueabihf.tar.gz"
-[[Libksba]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "95b288c1ddee98edd9bdb8c6a9522d6d663659f5"
-libc = "musl"
-os = "linux"
-
-    [[Libksba.download]]
-    sha256 = "2266785d2bdc2171978622122efc2c460a93db33d9ca8758ac874c3e768fb240"
-    url = "https://github.com/JuliaBinaryWrappers/Libksba_jll.jl/releases/download/Libksba-v1.5.1+1/Libksba.v1.5.1.armv7l-linux-musleabihf.tar.gz"
-[[Libksba]]
-arch = "i686"
-git-tree-sha1 = "4075a6e925f05da9957047b2904e194ba5bc8815"
-libc = "glibc"
-os = "linux"
-
-    [[Libksba.download]]
-    sha256 = "86c57b94711f92a2a3191403106cbff6e34d46bf8f316a1051a7c14f77d14f76"
-    url = "https://github.com/JuliaBinaryWrappers/Libksba_jll.jl/releases/download/Libksba-v1.5.1+1/Libksba.v1.5.1.i686-linux-gnu.tar.gz"
-[[Libksba]]
-arch = "i686"
-git-tree-sha1 = "b578eb306bbee4d0cdc95c9b3b5a416d69786925"
-libc = "musl"
-os = "linux"
-
-    [[Libksba.download]]
-    sha256 = "6d3f607063b5b42a64a434059e718c91ae1ff9a6d8e4d34a3a8b19fa90c3a66a"
-    url = "https://github.com/JuliaBinaryWrappers/Libksba_jll.jl/releases/download/Libksba-v1.5.1+1/Libksba.v1.5.1.i686-linux-musl.tar.gz"
-[[Libksba]]
-arch = "i686"
-git-tree-sha1 = "625933deac1ce6f7c16da1d450bc4b23508fd6c5"
-os = "windows"
-
-    [[Libksba.download]]
-    sha256 = "efd16f866554deb2d5dcea3864749f1037800dbb9fe0d59fe7a4f1595fac3167"
-    url = "https://github.com/JuliaBinaryWrappers/Libksba_jll.jl/releases/download/Libksba-v1.5.1+1/Libksba.v1.5.1.i686-w64-mingw32.tar.gz"
-[[Libksba]]
-arch = "powerpc64le"
-git-tree-sha1 = "433cf42e4f0715c0883eb097e7faa8519fbfaf34"
-libc = "glibc"
-os = "linux"
-
-    [[Libksba.download]]
-    sha256 = "64469416f338b6e1214798afa2d4159112cee0506dedb4b341fe614042e7e7fe"
-    url = "https://github.com/JuliaBinaryWrappers/Libksba_jll.jl/releases/download/Libksba-v1.5.1+1/Libksba.v1.5.1.powerpc64le-linux-gnu.tar.gz"
-[[Libksba]]
-arch = "x86_64"
-git-tree-sha1 = "fb459953e7fffe002b17520571c4f1966f0f9813"
+git-tree-sha1 = "4583301d50cb734da43fdc52d687e5860588befc"
 os = "macos"
 
     [[Libksba.download]]
-    sha256 = "cd2960908d04e597247b9d4430506d6cde6f0c4176599071f18210f84b5cadbf"
-    url = "https://github.com/JuliaBinaryWrappers/Libksba_jll.jl/releases/download/Libksba-v1.5.1+1/Libksba.v1.5.1.x86_64-apple-darwin.tar.gz"
+    sha256 = "7e81ba69c5bcd628902f6362fcdddc9750bc7521483e453435318c1d96dcc702"
+    url = "https://github.com/JuliaBinaryWrappers/Libksba_jll.jl/releases/download/Libksba-v1.6.7+0/Libksba.v1.6.7.aarch64-apple-darwin.tar.gz"
 [[Libksba]]
-arch = "x86_64"
-git-tree-sha1 = "285729063ff4e8ed6a09ab37bcd9bb74ad9ecf67"
+arch = "aarch64"
+git-tree-sha1 = "7b9643137216090612a9f10909fe2a0308b74210"
 libc = "glibc"
 os = "linux"
 
     [[Libksba.download]]
-    sha256 = "916228250cefde2049e1345fee9e5f830fda0c0217e290865c221f12ea93c55e"
-    url = "https://github.com/JuliaBinaryWrappers/Libksba_jll.jl/releases/download/Libksba-v1.5.1+1/Libksba.v1.5.1.x86_64-linux-gnu.tar.gz"
+    sha256 = "7e24697a4a892b76fbeb32c5a3981f7854e52014b40796f3fa79cbc1ca279221"
+    url = "https://github.com/JuliaBinaryWrappers/Libksba_jll.jl/releases/download/Libksba-v1.6.7+0/Libksba.v1.6.7.aarch64-linux-gnu.tar.gz"
 [[Libksba]]
-arch = "x86_64"
-git-tree-sha1 = "a93f560276293768f3a1336bc10ab01dc154a0f8"
+arch = "aarch64"
+git-tree-sha1 = "4ee5be6fd052a71e653504606fd2a3b323d9bcd5"
 libc = "musl"
 os = "linux"
 
     [[Libksba.download]]
-    sha256 = "6e2187d6b70faf382e437f6c70f70c41e8827483f9401f1a5f389bb0d53c90f6"
-    url = "https://github.com/JuliaBinaryWrappers/Libksba_jll.jl/releases/download/Libksba-v1.5.1+1/Libksba.v1.5.1.x86_64-linux-musl.tar.gz"
+    sha256 = "f4644dec684f79a97eee85f83017680c311bce3853778a9f673eb1dc7811fce5"
+    url = "https://github.com/JuliaBinaryWrappers/Libksba_jll.jl/releases/download/Libksba-v1.6.7+0/Libksba.v1.6.7.aarch64-linux-musl.tar.gz"
 [[Libksba]]
-arch = "x86_64"
-git-tree-sha1 = "366c08170c0bdb96f5921c4743f10ea62179a01c"
+arch = "aarch64"
+git-tree-sha1 = "84585b02a43fedeeffb8a32ed2044e666685e1f9"
 os = "freebsd"
 
     [[Libksba.download]]
-    sha256 = "8d7e4e0b9333f3a2bcc56c3987dbda473a55c1fa60e0737debbcbde430f4db13"
-    url = "https://github.com/JuliaBinaryWrappers/Libksba_jll.jl/releases/download/Libksba-v1.5.1+1/Libksba.v1.5.1.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "c6df9d2973dc40a68fa8ef85a4e9986c3553d5b7adc2d18259651b4992780ded"
+    url = "https://github.com/JuliaBinaryWrappers/Libksba_jll.jl/releases/download/Libksba-v1.6.7+0/Libksba.v1.6.7.aarch64-unknown-freebsd.tar.gz"
 [[Libksba]]
-arch = "x86_64"
-git-tree-sha1 = "5356f9754aaf9d3698332e21e3a48e74558dc46a"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "aed20455c8307ea2033490ff448564c680691bf5"
+libc = "glibc"
+os = "linux"
+
+    [[Libksba.download]]
+    sha256 = "279dabf24d988c29a4b5e6c337ae0278ade67f955f13f059cdeeb6be4ca5ec0f"
+    url = "https://github.com/JuliaBinaryWrappers/Libksba_jll.jl/releases/download/Libksba-v1.6.7+0/Libksba.v1.6.7.armv6l-linux-gnueabihf.tar.gz"
+[[Libksba]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "e0080bd0986e7f1c23ce6a8966702f6f6efacb7e"
+libc = "musl"
+os = "linux"
+
+    [[Libksba.download]]
+    sha256 = "577c5ee213c322baa7a3c86298835471d13bef9c4761a65e7774a44681fec745"
+    url = "https://github.com/JuliaBinaryWrappers/Libksba_jll.jl/releases/download/Libksba-v1.6.7+0/Libksba.v1.6.7.armv6l-linux-musleabihf.tar.gz"
+[[Libksba]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "b9ab36d50376414ce83d2d43a58236e10bfe67da"
+libc = "glibc"
+os = "linux"
+
+    [[Libksba.download]]
+    sha256 = "ea9c7a80412d4e183d78fa994f6d801582d558957cadf96c8649c580b5791e7e"
+    url = "https://github.com/JuliaBinaryWrappers/Libksba_jll.jl/releases/download/Libksba-v1.6.7+0/Libksba.v1.6.7.armv7l-linux-gnueabihf.tar.gz"
+[[Libksba]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "4ca4950d8ae85bb2dc262e2280a61997647c04c6"
+libc = "musl"
+os = "linux"
+
+    [[Libksba.download]]
+    sha256 = "b2a962c07be57c21e4e67b755c380fcab1f7421468bdea500ecf857f87527c0f"
+    url = "https://github.com/JuliaBinaryWrappers/Libksba_jll.jl/releases/download/Libksba-v1.6.7+0/Libksba.v1.6.7.armv7l-linux-musleabihf.tar.gz"
+[[Libksba]]
+arch = "i686"
+git-tree-sha1 = "b61f683e871f2b3346d623fcb3a5165bbbaf8c11"
+libc = "glibc"
+os = "linux"
+
+    [[Libksba.download]]
+    sha256 = "8c4b757cf4824fc35aedbb4766421a7b6757b130fca39bd362f406e6f08f454a"
+    url = "https://github.com/JuliaBinaryWrappers/Libksba_jll.jl/releases/download/Libksba-v1.6.7+0/Libksba.v1.6.7.i686-linux-gnu.tar.gz"
+[[Libksba]]
+arch = "i686"
+git-tree-sha1 = "422075ca24d0ffb74c3a4dddc9d0bca8e0719584"
+libc = "musl"
+os = "linux"
+
+    [[Libksba.download]]
+    sha256 = "db0e61e5203b76e8062b8a4b4529525a5148b4492ca872f370304dfe233b75da"
+    url = "https://github.com/JuliaBinaryWrappers/Libksba_jll.jl/releases/download/Libksba-v1.6.7+0/Libksba.v1.6.7.i686-linux-musl.tar.gz"
+[[Libksba]]
+arch = "i686"
+git-tree-sha1 = "dcc7e924a711f9fc3d4665a666ff58b21322bc79"
 os = "windows"
 
     [[Libksba.download]]
-    sha256 = "711c122c6503dd35dacd2e66a2e9321c33a41ffeb3956201fdb42b90f4857810"
-    url = "https://github.com/JuliaBinaryWrappers/Libksba_jll.jl/releases/download/Libksba-v1.5.1+1/Libksba.v1.5.1.x86_64-w64-mingw32.tar.gz"
+    sha256 = "3431883c42cfec82bd65dfc9b3a268c2759e6f1c3d9bca5a71e4931c5caedf44"
+    url = "https://github.com/JuliaBinaryWrappers/Libksba_jll.jl/releases/download/Libksba-v1.6.7+0/Libksba.v1.6.7.i686-w64-mingw32.tar.gz"
+[[Libksba]]
+arch = "powerpc64le"
+git-tree-sha1 = "83ccd0dc6def502441602b63fa2f2b51a48a1624"
+libc = "glibc"
+os = "linux"
+
+    [[Libksba.download]]
+    sha256 = "19d05589a9adf5c54549147655c79a113a3aa210a381de5936a9326cbecc6d6e"
+    url = "https://github.com/JuliaBinaryWrappers/Libksba_jll.jl/releases/download/Libksba-v1.6.7+0/Libksba.v1.6.7.powerpc64le-linux-gnu.tar.gz"
+[[Libksba]]
+arch = "x86_64"
+git-tree-sha1 = "6ba6626dc9e9155588b215606c3e3dcd22fe745f"
+os = "macos"
+
+    [[Libksba.download]]
+    sha256 = "940138b87425ce7f4b3f8ec8fc103570246e4b5b99de57039fd1e6401f2bf999"
+    url = "https://github.com/JuliaBinaryWrappers/Libksba_jll.jl/releases/download/Libksba-v1.6.7+0/Libksba.v1.6.7.x86_64-apple-darwin.tar.gz"
+[[Libksba]]
+arch = "x86_64"
+git-tree-sha1 = "173e9eb4615dcdf02979501ec4aa0b64b928c34b"
+libc = "glibc"
+os = "linux"
+
+    [[Libksba.download]]
+    sha256 = "7460703542253a3db0e3a353684a2fe0097b7b00d33221cfb5ae86cba2fb0d46"
+    url = "https://github.com/JuliaBinaryWrappers/Libksba_jll.jl/releases/download/Libksba-v1.6.7+0/Libksba.v1.6.7.x86_64-linux-gnu.tar.gz"
+[[Libksba]]
+arch = "x86_64"
+git-tree-sha1 = "0ed8069e73b7885b89cba7af9ba901addf6d8d1b"
+libc = "musl"
+os = "linux"
+
+    [[Libksba.download]]
+    sha256 = "23a58226957ee205f39bbec27e3eb98a9b6b79295522e218967a0d5fd28e2cf7"
+    url = "https://github.com/JuliaBinaryWrappers/Libksba_jll.jl/releases/download/Libksba-v1.6.7+0/Libksba.v1.6.7.x86_64-linux-musl.tar.gz"
+[[Libksba]]
+arch = "x86_64"
+git-tree-sha1 = "ce154715236a06fd2ac096f9732dcef09962f983"
+os = "freebsd"
+
+    [[Libksba.download]]
+    sha256 = "afb5915ce1b53a6d8ce3b0ad8c7c3119ce9e328b4ea6f7895e00c0bc2452c829"
+    url = "https://github.com/JuliaBinaryWrappers/Libksba_jll.jl/releases/download/Libksba-v1.6.7+0/Libksba.v1.6.7.x86_64-unknown-freebsd.tar.gz"
+[[Libksba]]
+arch = "x86_64"
+git-tree-sha1 = "e4e62d425c46ce0fc9ade3a1dd4b5cb62562fbaf"
+os = "windows"
+
+    [[Libksba.download]]
+    sha256 = "711d69213847eac8ec2b09bf7d65a51b5e3126a8d365219c56bd2889576de287"
+    url = "https://github.com/JuliaBinaryWrappers/Libksba_jll.jl/releases/download/Libksba-v1.6.7+0/Libksba.v1.6.7.x86_64-w64-mingw32.tar.gz"
