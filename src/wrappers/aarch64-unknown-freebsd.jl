@@ -3,7 +3,7 @@ export libksba
 
 using Libgpg_error_jll
 JLLWrappers.@generate_wrapper_header("Libksba")
-JLLWrappers.@declare_library_product(libksba, "libksba.so.22")
+JLLWrappers.@declare_library_product(libksba, "libksba.so.8")
 function __init__()
     JLLWrappers.@generate_init_header(Libgpg_error_jll)
     JLLWrappers.@init_library_product(
